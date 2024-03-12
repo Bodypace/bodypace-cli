@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+location="$(dirname $0)"
+pushd "$location/.." > /dev/null
+
+npx tsx "$location/../src/main.ts" $@
+
+popd > /dev/null

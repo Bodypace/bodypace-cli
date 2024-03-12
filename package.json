@@ -1,0 +1,20 @@
+{
+  "name": "bodypace-cli",
+  "version": "0.1.0",
+  "description": "Bodypace CLI for devs. Offline encryption utils and client to bodypace personal and public data servers.",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Before starting this project, after thoughtful consideration, I decided to not write any bugs in the first place.\nTherefore, there are no tests. Assume it passed and chill out. Remember: work smart not hard.\" && exit 42"
+  },
+  "author": "Bodypace",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "libsodium-wrappers": "^0.7.13",
+    "tsx": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/libsodium-wrappers": "^0.7.13",
+    "@types/node": "^20.11.26"
+  }
+}
